@@ -37,6 +37,7 @@ img.matrix {
 	left: auto;
 	right: 50px;
 	-webkit-animation: rotation 1.5s infinite linear;
+	-webkit-animation: mymove 5s infinite;
 
 }
 
@@ -58,6 +59,13 @@ to {-webkit-transform: rotate(359deg);}
   color: gray;
   font-family: "Trebuchet MS";
   font-weight: bold;
+}
+
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
 }
 
 </style>
